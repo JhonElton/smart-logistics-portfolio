@@ -38,12 +38,6 @@ Detail-oriented and results-driven Information Technology student specializing i
 
 ---
 
-### 📊 Visual Analytics & Telematics Evidence
-> **Figure 1: Predictive Driver Performance Matrix** > ![Driver Performance Matrix](driver_performance.png)  
-> *Analysis Note:* Computed a composite optimization matrix mapping real-world fleet delivery metrics. Used dual-axis clustering to isolate sub-optimal efficiency windows against high-risk velocity thresholds (blended urban ceiling set at 75 km/h).
-
----
-
 ## 🎓 EDUCATION
 
 ### **Bachelor of Science in Information Technology**

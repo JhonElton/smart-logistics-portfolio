@@ -52,6 +52,45 @@ Access interactive Swagger API documentation via: **http://127.0.0.1:8000/docs**
 
 ---
 
+## 🔌 API Documentation Reference
+The backend microservice exposes structured REST endpoints to serve data payloads programmatically. 
+
+### 1. GET `/api/v1/resume`
+* **Description:** Retrieves the candidate's professional profile, technical skills, and academic background.
+* **Response Format:** `application/json`
+* **Sample Payload:**
+```json
+{
+  "candidate": "Elton",
+  "role": "Data Science & Analytics Intern",
+  "specialization": "Smart Logistics & Fleet Telematics",
+  "core_skills": ["Python", "Pandas", "FastAPI", "Streamlit", "Redis", "Machine Learning"]
+}
+```
+### 2. GET /api/v1/fleet
+* **Description:** Extracts live computed telematics metrics and dynamic risk profiles for the entire fleet registry.
+* **Response Format:** application/json
+* **Sample Payload:**
+```json
+[
+  {
+    "driver_id": "DRV-001",
+    "name": "Driver A",
+    "avg_speed_kph": 82,
+    "efficiency_score": 100.0,
+    "risk_profile": "High Risk"
+  }
+]
+```
+
+---
+
+### 📊 Visual Analytics & Telematics Evidence
+> **Figure 1: Predictive Driver Performance Matrix** > ![Driver Performance Matrix](driver_performance.png)  
+> *Analysis Note:* Computed a composite optimization matrix mapping real-world fleet delivery metrics. Used dual-axis clustering to isolate sub-optimal efficiency windows against high-risk velocity thresholds (blended urban ceiling set at 75 km/h).
+
+---
+
 ## 📊 Business Rules & Optimization Insights
 * **Operational Efficiency Score:** Calculated dynamically as a derivative ratio of Scheduled Time divided by Actual Delivery Time (capped at 100%).
 
